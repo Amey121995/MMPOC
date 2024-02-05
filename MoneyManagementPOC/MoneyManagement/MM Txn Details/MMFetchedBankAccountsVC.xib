@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatText-Bold.ttf">
+            <string>RedHatText-Bold</string>
+        </array>
+        <array key="RedHatText-Medium.ttf">
+            <string>RedHatText-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMFetchedBankAccountsVC" customModule="Fintoo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnTrackNewAccount" destination="6ow-OQ-xvn" id="Uzp-48-sBf"/>
+                <outlet property="btnViewOverallReport" destination="e2e-wb-NlH" id="jbK-6n-axF"/>
+                <outlet property="tblViewActiveAccounts" destination="wCu-pM-aGa" id="71G-6e-2sc"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewAccounts" destination="TzN-DE-d4S" id="suH-wG-vQf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceh-Ze-h4s">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TzN-DE-d4S">
+                            <rect key="frame" x="8" y="12" width="359" height="170"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Bank Accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vz8-XC-Twf">
+                                    <rect key="frame" x="12" y="16" width="108.5" height="19"/>
+                                    <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="14"/>
+                                    <color key="textColor" red="0.11372549019607843" green="0.12549019607843137" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Balance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8a-a7-d0G">
+                                    <rect key="frame" x="12" y="45" width="159" height="32"/>
+                                    <fontDescription key="fontDescription" name="RedHatText-Bold" family="Red Hat Text" pointSize="24"/>
+                                    <color key="textColor" red="0.070588235294117646" green="0.070588235294117646" blue="0.070588235294117646" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="As of Today, 01:11 PM" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1HZ-w4-xfH">
+                                    <rect key="frame" x="231.5" y="30" width="115.5" height="16"/>
+                                    <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="12"/>
+                                    <color key="textColor" red="0.1137254902" green="0.12549019610000001" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="₹ 133332.21" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qms-4P-s1x">
+                                    <rect key="frame" x="231.5" y="51" width="115.5" height="21.5"/>
+                                    <fontDescription key="fontDescription" name="RedHatText-Bold" family="Red Hat Text" pointSize="16"/>
+                                    <color key="textColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjz-N9-CI5">
+                                    <rect key="frame" x="322" y="49.5" width="25" height="25"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="25" id="LJb-Id-HJq"/>
+                                        <constraint firstAttribute="height" constant="25" id="LSG-aK-fvs"/>
+                                    </constraints>
+                                    <color key="tintColor" red="0.070588235289999995" green="0.070588235289999995" blue="0.070588235289999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                    <state key="normal" image="eye" catalog="system"/>
+                                </button>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ddN-Ze-OOq">
+                                    <rect key="frame" x="8" y="110" width="343" height="40"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6ow-OQ-xvn">
+                                            <rect key="frame" x="0.0" y="0.0" width="161.5" height="40"/>
+                                            <color key="backgroundColor" name="FintooTintBlue"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="Track new account">
+                                                        <attributes>
+                                                            <font key="NSFont" size="12" name="RedHatText-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </buttonConfiguration>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="20"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e2e-wb-NlH">
+                                            <rect key="frame" x="181.5" y="0.0" width="161.5" height="40"/>
+                                            <color key="backgroundColor" name="FintooTintBlue"/>
+                                            <state key="normal" title="Button"/>
+                                            <buttonConfiguration key="configuration" style="plain">
+                                                <attributedString key="attributedTitle">
+                                                    <fragment content="View overall report">
+                                                        <attributes>
+                                                            <font key="NSFont" size="12" name="RedHatText-Bold"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </buttonConfiguration>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="20"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="40" id="RoO-4J-KI4"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" red="0.99607843137254903" green="0.99607843137254903" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="ddN-Ze-OOq" firstAttribute="centerX" secondItem="TzN-DE-d4S" secondAttribute="centerX" id="05D-TS-1aK"/>
+                                <constraint firstAttribute="trailing" secondItem="ddN-Ze-OOq" secondAttribute="trailing" constant="8" id="6eE-2k-4oy"/>
+                                <constraint firstItem="Qms-4P-s1x" firstAttribute="trailing" secondItem="1HZ-w4-xfH" secondAttribute="trailing" id="9U1-Y1-R9J"/>
+                                <constraint firstAttribute="height" constant="170" id="Cvn-Nz-ICv"/>
+                                <constraint firstAttribute="trailing" secondItem="1HZ-w4-xfH" secondAttribute="trailing" constant="12" id="NYQ-Ov-Pzd"/>
+                                <constraint firstItem="1HZ-w4-xfH" firstAttribute="top" secondItem="TzN-DE-d4S" secondAttribute="top" constant="30" id="OFs-QS-CwN"/>
+                                <constraint firstItem="vz8-XC-Twf" firstAttribute="leading" secondItem="TzN-DE-d4S" secondAttribute="leading" constant="12" id="OLV-a5-7KZ"/>
+                                <constraint firstAttribute="bottom" secondItem="ddN-Ze-OOq" secondAttribute="bottom" constant="20" id="U7s-Qc-4Zf"/>
+                                <constraint firstItem="Qms-4P-s1x" firstAttribute="leading" secondItem="1HZ-w4-xfH" secondAttribute="leading" id="Yse-2h-ybb"/>
+                                <constraint firstItem="ddN-Ze-OOq" firstAttribute="leading" secondItem="TzN-DE-d4S" secondAttribute="leading" constant="8" id="bBV-BP-YTI"/>
+                                <constraint firstItem="Q8a-a7-d0G" firstAttribute="top" secondItem="vz8-XC-Twf" secondAttribute="bottom" constant="10" id="cBj-ya-wV2"/>
+                                <constraint firstItem="Q8a-a7-d0G" firstAttribute="leading" secondItem="vz8-XC-Twf" secondAttribute="leading" id="fmQ-FA-V3g"/>
+                                <constraint firstItem="Qms-4P-s1x" firstAttribute="top" secondItem="1HZ-w4-xfH" secondAttribute="bottom" constant="5" id="kTo-bP-fxK"/>
+                                <constraint firstItem="Tjz-N9-CI5" firstAttribute="centerY" secondItem="Qms-4P-s1x" secondAttribute="centerY" id="xer-6w-k1w"/>
+                                <constraint firstItem="vz8-XC-Twf" firstAttribute="top" secondItem="TzN-DE-d4S" secondAttribute="top" constant="16" id="zPE-4k-OgH"/>
+                                <constraint firstItem="Tjz-N9-CI5" firstAttribute="trailing" secondItem="1HZ-w4-xfH" secondAttribute="trailing" id="zzO-2o-MYw"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="DividerColor"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GHA-XF-fhe">
+                            <rect key="frame" x="8" y="202" width="359" height="1"/>
+                            <color key="backgroundColor" name="DividerColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="irK-bL-dg5"/>
+                            </constraints>
+                        </view>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="wCu-pM-aGa">
+                            <rect key="frame" x="8" y="256.5" width="359" height="390.5"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="jpj-fa-88B"/>
+                                <outlet property="delegate" destination="-1" id="TJa-tS-OeK"/>
+                            </connections>
+                        </tableView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Active Accounts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCK-IW-Axg">
+                            <rect key="frame" x="20" y="219" width="121" height="21.5"/>
+                            <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="16"/>
+                            <color key="textColor" red="0.1137254902" green="0.12549019610000001" blue="0.1529411765" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="TzN-DE-d4S" secondAttribute="trailing" constant="8" id="2Cd-dF-hPc"/>
+                        <constraint firstItem="TzN-DE-d4S" firstAttribute="top" secondItem="ceh-Ze-h4s" secondAttribute="top" constant="12" id="DAo-q6-gw5"/>
+                        <constraint firstAttribute="bottom" secondItem="wCu-pM-aGa" secondAttribute="bottom" id="FkW-7l-572"/>
+                        <constraint firstItem="TzN-DE-d4S" firstAttribute="leading" secondItem="ceh-Ze-h4s" secondAttribute="leading" constant="8" id="Gd9-9H-x5h"/>
+                        <constraint firstItem="wCu-pM-aGa" firstAttribute="top" secondItem="fCK-IW-Axg" secondAttribute="bottom" constant="16" id="IsG-kI-V5I"/>
+                        <constraint firstItem="GHA-XF-fhe" firstAttribute="top" secondItem="TzN-DE-d4S" secondAttribute="bottom" constant="20" id="Qyi-wI-wHv"/>
+                        <constraint firstItem="fCK-IW-Axg" firstAttribute="leading" secondItem="Q8a-a7-d0G" secondAttribute="leading" id="T6h-bE-YWI"/>
+                        <constraint firstItem="wCu-pM-aGa" firstAttribute="leading" secondItem="GHA-XF-fhe" secondAttribute="leading" id="Whc-yG-hnp"/>
+                        <constraint firstItem="GHA-XF-fhe" firstAttribute="trailing" secondItem="TzN-DE-d4S" secondAttribute="trailing" id="cF9-AF-mgs"/>
+                        <constraint firstItem="fCK-IW-Axg" firstAttribute="top" secondItem="GHA-XF-fhe" secondAttribute="bottom" constant="16" id="hz7-Jf-iMA"/>
+                        <constraint firstItem="GHA-XF-fhe" firstAttribute="leading" secondItem="TzN-DE-d4S" secondAttribute="leading" id="rFF-Ww-1uA"/>
+                        <constraint firstItem="wCu-pM-aGa" firstAttribute="trailing" secondItem="GHA-XF-fhe" secondAttribute="trailing" id="utQ-k6-msq"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.95294117649999999" green="0.98431372549999996" blue="0.99607843139999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ceh-Ze-h4s" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LJr-CI-Gbn"/>
+                <constraint firstItem="ceh-Ze-h4s" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="d3K-SX-rMj"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ceh-Ze-h4s" secondAttribute="trailing" id="hxg-qT-qm0"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ceh-Ze-h4s" secondAttribute="bottom" id="qdc-ah-fdE"/>
+            </constraints>
+            <point key="canvasLocation" x="-12" y="-1.3493253373313345"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="eye" catalog="system" width="128" height="79"/>
+        <namedColor name="DividerColor">
+            <color red="0.65098039215686276" green="0.65098039215686276" blue="0.65098039215686276" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FintooTintBlue">
+            <color red="0.13333333333333333" green="0.65098039215686276" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

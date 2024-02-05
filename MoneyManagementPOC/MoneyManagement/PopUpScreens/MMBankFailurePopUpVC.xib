@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatText-Bold.ttf">
+            <string>RedHatText-Bold</string>
+        </array>
+        <array key="RedHatText-Regular.ttf">
+            <string>RedHatText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMBankFailurePopUpVC" customModule="Fintoo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnCancel" destination="q4l-bP-8Vg" id="0c2-vE-OXi"/>
+                <outlet property="btnContinue" destination="hL4-al-DFm" id="OS1-ob-k8d"/>
+                <outlet property="imgPending" destination="4p5-bQ-x2I" id="An4-Wp-nKT"/>
+                <outlet property="lblSubTitle" destination="2XO-6b-xFz" id="Zvc-ws-uwO"/>
+                <outlet property="lblTitle" destination="3tL-pC-dNr" id="rHZ-fh-GN0"/>
+                <outlet property="view" destination="GO9-Gd-3tb" id="qwR-mk-7Hc"/>
+                <outlet property="viewCard" destination="Fa8-Bh-H5x" id="Pyy-qV-MdL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="GO9-Gd-3tb">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gXR-Cg-B4V">
+                    <rect key="frame" x="0.0" y="58.999999999999972" width="393" height="473.33333333333326"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fa8-Bh-H5x">
+                    <rect key="frame" x="0.0" y="532.33333333333337" width="393" height="285.66666666666663"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Axis Bank Servers Are Currently Down" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tL-pC-dNr">
+                            <rect key="frame" x="45.666666666666657" y="20" width="301.66666666666674" height="21.333333333333329"/>
+                            <fontDescription key="fontDescription" name="RedHatText-Bold" family="Red Hat Text" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MM_Pending" translatesAutoresizingMaskIntoConstraints="NO" id="4p5-bQ-x2I">
+                            <rect key="frame" x="156.66666666666666" y="63.666666666666629" width="80" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="DOP-2x-ElD"/>
+                                <constraint firstAttribute="height" constant="70" id="a7Z-bG-gGX"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We have observed that Axis Bank  is currently facing an ecosystem wide problem in linking. Please try again later." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XO-6b-xFz">
+                            <rect key="frame" x="30" y="163.66666666666663" width="333" height="32"/>
+                            <fontDescription key="fontDescription" name="RedHatText-Regular" family="Red Hat Text" pointSize="12"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="EQ5-J6-MwV">
+                            <rect key="frame" x="146.66666666666666" y="215.66666666666663" width="100" height="40"/>
+                            <subviews>
+                                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4l-bP-8Vg">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="ax8-Gr-KiG"/>
+                                        <constraint firstAttribute="height" constant="40" id="jjF-b9-0Mo"/>
+                                    </constraints>
+                                    <color key="tintColor" name="FintooTintBlue"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                                        <fontDescription key="titleFontDescription" name="RedHatText-Bold" family="Red Hat Text" pointSize="16"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="22.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" name="FintooTintBlue"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="cancelPressed:" destination="-1" eventType="touchUpInside" id="diI-k8-yNi"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hL4-al-DFm">
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="40"/>
+                                    <color key="backgroundColor" name="FintooTintBlue"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="UZG-oe-xsW"/>
+                                        <constraint firstAttribute="height" constant="40" id="otX-H2-sPt"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Go Back">
+                                        <fontDescription key="titleFontDescription" name="RedHatText-Bold" family="Red Hat Text" pointSize="16"/>
+                                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </buttonConfiguration>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                            <real key="value" value="22.5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="continuePressed:" destination="-1" eventType="touchUpInside" id="V5u-ne-YaU"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="4p5-bQ-x2I" firstAttribute="centerX" secondItem="3tL-pC-dNr" secondAttribute="centerX" id="09y-xj-Vv2"/>
+                        <constraint firstAttribute="bottom" secondItem="EQ5-J6-MwV" secondAttribute="bottom" constant="30" id="32p-6A-R4q"/>
+                        <constraint firstItem="3tL-pC-dNr" firstAttribute="centerX" secondItem="Fa8-Bh-H5x" secondAttribute="centerX" id="4hi-cp-R1q"/>
+                        <constraint firstItem="2XO-6b-xFz" firstAttribute="top" secondItem="4p5-bQ-x2I" secondAttribute="bottom" constant="30" id="AYx-5K-xbf"/>
+                        <constraint firstItem="EQ5-J6-MwV" firstAttribute="top" secondItem="2XO-6b-xFz" secondAttribute="bottom" constant="20" id="V7k-Fu-PUf"/>
+                        <constraint firstItem="3tL-pC-dNr" firstAttribute="top" secondItem="Fa8-Bh-H5x" secondAttribute="top" constant="20" id="fPk-1j-tl1"/>
+                        <constraint firstItem="2XO-6b-xFz" firstAttribute="centerX" secondItem="4p5-bQ-x2I" secondAttribute="centerX" id="lqd-FJ-nYR"/>
+                        <constraint firstItem="2XO-6b-xFz" firstAttribute="leading" secondItem="Fa8-Bh-H5x" secondAttribute="leading" constant="30" id="oQa-ME-Gzc"/>
+                        <constraint firstItem="EQ5-J6-MwV" firstAttribute="centerX" secondItem="2XO-6b-xFz" secondAttribute="centerX" id="pSz-gb-BjE"/>
+                        <constraint firstItem="4p5-bQ-x2I" firstAttribute="top" secondItem="3tL-pC-dNr" secondAttribute="bottom" constant="22.333333333333329" id="yEJ-Ke-8IP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="3KZ-iJ-U1P"/>
+            <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Fa8-Bh-H5x" firstAttribute="top" secondItem="gXR-Cg-B4V" secondAttribute="bottom" id="GQw-tb-zkK"/>
+                <constraint firstItem="gXR-Cg-B4V" firstAttribute="leading" secondItem="3KZ-iJ-U1P" secondAttribute="leading" id="OSt-B3-9JB"/>
+                <constraint firstItem="3KZ-iJ-U1P" firstAttribute="bottom" secondItem="Fa8-Bh-H5x" secondAttribute="bottom" id="SGY-61-NDs"/>
+                <constraint firstItem="3KZ-iJ-U1P" firstAttribute="trailing" secondItem="Fa8-Bh-H5x" secondAttribute="trailing" id="V7u-qi-MXG"/>
+                <constraint firstItem="gXR-Cg-B4V" firstAttribute="top" secondItem="3KZ-iJ-U1P" secondAttribute="top" id="b9h-QG-OX4"/>
+                <constraint firstItem="Fa8-Bh-H5x" firstAttribute="leading" secondItem="3KZ-iJ-U1P" secondAttribute="leading" id="eEb-ry-aeG"/>
+                <constraint firstItem="3KZ-iJ-U1P" firstAttribute="trailing" secondItem="gXR-Cg-B4V" secondAttribute="trailing" id="pB2-ho-bo5"/>
+            </constraints>
+            <point key="canvasLocation" x="136.64122137404578" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MM_Pending" width="910" height="791"/>
+        <namedColor name="FintooTintBlue">
+            <color red="0.13333333333333333" green="0.65098039215686276" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

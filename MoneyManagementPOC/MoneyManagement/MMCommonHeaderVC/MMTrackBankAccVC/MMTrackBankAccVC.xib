@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatText-Regular.ttf">
+            <string>RedHatText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMTrackBankAccVC" customModule="Fintoo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnContinue" destination="vLO-ol-bd5" id="lCR-g1-Vaq"/>
+                <outlet property="lblBottomDescription" destination="kBS-NO-OHk" id="7lG-12-AA4"/>
+                <outlet property="tblViewTrackAcc" destination="EtX-3O-aZf" id="VvY-YV-VU2"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="EtX-3O-aZf">
+                    <rect key="frame" x="10" y="69" width="373" height="624.66666666666663"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="OX6-Ph-qtw"/>
+                        <outlet property="delegate" destination="-1" id="NBC-Z9-GkP"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vLO-ol-bd5">
+                    <rect key="frame" x="40" y="703.66666666666663" width="313" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="diM-1f-agu"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Track Account">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onContinuePressed:" destination="-1" eventType="touchUpInside" id="Orh-3v-adx"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kBS-NO-OHk">
+                    <rect key="frame" x="20" y="768.66666666666663" width="353" height="29.333333333333371"/>
+                    <string key="text">We automatically track your expenses for a default period of 6 months.
+If you wish to modify click View Consent details.</string>
+                    <fontDescription key="fontDescription" name="RedHatText-Regular" family="Red Hat Text" pointSize="11"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="vLO-ol-bd5" secondAttribute="trailing" constant="40" id="1CO-v2-XUx"/>
+                <constraint firstItem="EtX-3O-aZf" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="2Fc-6N-2S3"/>
+                <constraint firstItem="EtX-3O-aZf" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="10" id="4Hp-QR-mO4"/>
+                <constraint firstItem="vLO-ol-bd5" firstAttribute="top" secondItem="EtX-3O-aZf" secondAttribute="bottom" constant="10" id="7ty-1C-4QR"/>
+                <constraint firstItem="vLO-ol-bd5" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="40" id="DX5-yz-eAC"/>
+                <constraint firstItem="kBS-NO-OHk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="Men-RU-eSd"/>
+                <constraint firstItem="vLO-ol-bd5" firstAttribute="bottom" secondItem="kBS-NO-OHk" secondAttribute="top" constant="-20" id="Tes-JP-R14"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kBS-NO-OHk" secondAttribute="trailing" constant="20" id="Xp1-uP-MTT"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kBS-NO-OHk" secondAttribute="bottom" constant="20" id="bIT-q1-54T"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="EtX-3O-aZf" secondAttribute="trailing" constant="10" id="sNT-NH-YRb"/>
+            </constraints>
+            <point key="canvasLocation" x="-11" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

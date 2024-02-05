@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatText-Bold.ttf">
+            <string>RedHatText-Bold</string>
+        </array>
+        <array key="RedHatText-Medium.ttf">
+            <string>RedHatText-Medium</string>
+        </array>
+        <array key="RedHatText-Regular.ttf">
+            <string>RedHatText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMBankRequestLoaderVC" customModule="Fintoo" customModuleProvider="target">
+            <connections>
+                <outlet property="progressView" destination="3ss-Sw-Jkt" id="T8x-pY-wjk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gtR-1P-gnl">
+                    <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KUA-TF-xOu">
+                            <rect key="frame" x="19.666666666666657" y="279.66666666666669" width="353.66666666666674" height="200"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="Ico-ys-fJd">
+                                    <rect key="frame" x="0.0" y="0.0" width="353.66666666666669" height="200"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xff-nf-8uQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="353.66666666666669" height="82"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ss-Sw-Jkt" customClass="MBCircularProgressBarView">
+                                                    <rect key="frame" x="138.33333333333334" y="2.3333333333333144" width="77" height="77"/>
+                                                    <subviews>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GenRateMandateLink" translatesAutoresizingMaskIntoConstraints="NO" id="AvJ-Hx-YKW">
+                                                            <rect key="frame" x="25" y="25" width="27" height="27"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstItem="AvJ-Hx-YKW" firstAttribute="leading" secondItem="3ss-Sw-Jkt" secondAttribute="leading" constant="25" id="7rg-pe-KYR"/>
+                                                        <constraint firstAttribute="trailing" secondItem="AvJ-Hx-YKW" secondAttribute="trailing" constant="25" id="8FA-Cd-SGr"/>
+                                                        <constraint firstAttribute="width" constant="77" id="8u5-pg-1qN"/>
+                                                        <constraint firstAttribute="height" constant="77" id="EiQ-ZE-pfF"/>
+                                                        <constraint firstItem="AvJ-Hx-YKW" firstAttribute="top" secondItem="3ss-Sw-Jkt" secondAttribute="top" constant="25" id="KWk-dh-4nI"/>
+                                                        <constraint firstAttribute="bottom" secondItem="AvJ-Hx-YKW" secondAttribute="bottom" constant="25" id="r83-F7-BUv"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="progressColor">
+                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="progressStrokeColor">
+                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="progressRotationAngle">
+                                                            <real key="value" value="50"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="progressAngle">
+                                                            <real key="value" value="100"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="progressLineWidth">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="emptyLineColor">
+                                                            <color key="value" name="MyTintColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="emptyLineStrokeColor">
+                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="emptyLineWidth">
+                                                            <real key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="fontColor">
+                                                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="3ss-Sw-Jkt" firstAttribute="centerX" secondItem="xff-nf-8uQ" secondAttribute="centerX" id="71e-ih-eGk"/>
+                                                <constraint firstItem="3ss-Sw-Jkt" firstAttribute="centerY" secondItem="xff-nf-8uQ" secondAttribute="centerY" id="Nds-xx-bKr"/>
+                                                <constraint firstAttribute="height" constant="82" id="gVV-yz-L2H"/>
+                                            </constraints>
+                                        </view>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Fintoo has Requested data from HDFC Bank" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5iZ-sh-ucw">
+                                            <rect key="frame" x="0.0" y="112" width="353.66666666666669" height="23.333333333333343"/>
+                                            <fontDescription key="fontDescription" name="RedHatText-Bold" family="Red Hat Text" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This may take 80 to 90 seconds. We will notify you once the data received from AXIS Bank" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yX2-n7-bIq">
+                                            <rect key="frame" x="0.0" y="165.33333333333331" width="353.66666666666669" height="34.666666666666657"/>
+                                            <fontDescription key="fontDescription" name="RedHatText-Regular" family="Red Hat Text" pointSize="13"/>
+                                            <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="200" id="1lj-mQ-1yq"/>
+                                <constraint firstItem="Ico-ys-fJd" firstAttribute="top" secondItem="KUA-TF-xOu" secondAttribute="top" id="5QQ-Hx-hhs"/>
+                                <constraint firstAttribute="bottom" secondItem="Ico-ys-fJd" secondAttribute="bottom" id="8Yd-B4-TFc"/>
+                                <constraint firstAttribute="trailing" secondItem="Ico-ys-fJd" secondAttribute="trailing" id="SKF-Up-yNe"/>
+                                <constraint firstItem="Ico-ys-fJd" firstAttribute="leading" secondItem="KUA-TF-xOu" secondAttribute="leading" id="YDa-uR-wN7"/>
+                            </constraints>
+                        </view>
+                        <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="P5V-Tz-gon">
+                            <rect key="frame" x="40" y="609" width="313" height="110"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wjM-DJ-LoJ">
+                                    <rect key="frame" x="0.0" y="0.0" width="313" height="35"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MandateBottom" translatesAutoresizingMaskIntoConstraints="NO" id="ghp-Iu-TpW">
+                                            <rect key="frame" x="0.0" y="0.0" width="313" height="35"/>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="35" id="cvm-O9-zck"/>
+                                    </constraints>
+                                </stackView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ccs-3Z-qHe">
+                                    <rect key="frame" x="0.0" y="35" width="313" height="75"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pvf-N9-5OM">
+                                            <rect key="frame" x="50.000000000000014" y="10" width="213.33333333333337" height="25"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="DMF_Trxn_Sec_Payment" translatesAutoresizingMaskIntoConstraints="NO" id="YWB-Lb-PX7">
+                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="25" id="WJH-uA-qCd"/>
+                                                        <constraint firstAttribute="width" constant="25" id="hT6-Jx-pq7"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="100% Safe And Secure Payment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxZ-gX-uWZ">
+                                                    <rect key="frame" x="35" y="0.0" width="178.33333333333334" height="25"/>
+                                                    <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="12"/>
+                                                    <color key="textColor" white="0.0" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="pvf-N9-5OM" secondAttribute="bottom" constant="40" id="3SD-uV-P5t"/>
+                                        <constraint firstItem="pvf-N9-5OM" firstAttribute="top" secondItem="Ccs-3Z-qHe" secondAttribute="top" constant="10" id="WeP-xc-zNW"/>
+                                        <constraint firstItem="pvf-N9-5OM" firstAttribute="centerX" secondItem="Ccs-3Z-qHe" secondAttribute="centerX" id="da6-Oi-xXt"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGroupedBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="KUA-TF-xOu" firstAttribute="centerY" secondItem="gtR-1P-gnl" secondAttribute="centerY" id="OhF-WH-MeV"/>
+                        <constraint firstItem="KUA-TF-xOu" firstAttribute="centerX" secondItem="gtR-1P-gnl" secondAttribute="centerX" id="V6Z-dz-4P7"/>
+                        <constraint firstItem="KUA-TF-xOu" firstAttribute="width" secondItem="gtR-1P-gnl" secondAttribute="width" multiplier="0.9" id="b7s-Pa-2Ac"/>
+                        <constraint firstItem="P5V-Tz-gon" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KUA-TF-xOu" secondAttribute="bottom" constant="10" id="kq9-JH-yUe"/>
+                        <constraint firstItem="P5V-Tz-gon" firstAttribute="leading" secondItem="gtR-1P-gnl" secondAttribute="leading" constant="40" id="mMY-4y-vt7"/>
+                        <constraint firstItem="P5V-Tz-gon" firstAttribute="centerX" secondItem="KUA-TF-xOu" secondAttribute="centerX" id="oth-n1-MXt"/>
+                        <constraint firstAttribute="bottom" secondItem="P5V-Tz-gon" secondAttribute="bottom" constant="40" id="qvm-5y-3dd"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="gtR-1P-gnl" secondAttribute="bottom" id="510-qF-zUX"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="gtR-1P-gnl" secondAttribute="top" id="L6W-oX-QSf"/>
+                <constraint firstItem="gtR-1P-gnl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jj4-gT-1aZ"/>
+                <constraint firstItem="gtR-1P-gnl" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="ujL-HO-mN6"/>
+            </constraints>
+            <point key="canvasLocation" x="36" y="20"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="DMF_Trxn_Sec_Payment" width="240" height="240"/>
+        <image name="GenRateMandateLink" width="179" height="271"/>
+        <image name="MandateBottom" width="1870" height="262"/>
+        <namedColor name="MyTintColor">
+            <color red="0.13333333333333333" green="0.65098039215686276" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemGroupedBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

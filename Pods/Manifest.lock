@@ -1,0 +1,28 @@
+PODS:
+  - DropDown (2.3.13)
+  - MBCircularProgressBar (0.3.5)
+  - OTPFieldView (1.0.1)
+  - SpreadsheetView (0.9.1)
+
+DEPENDENCIES:
+  - DropDown
+  - MBCircularProgressBar
+  - OTPFieldView
+  - SpreadsheetView
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - MBCircularProgressBar
+    - OTPFieldView
+    - SpreadsheetView
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  MBCircularProgressBar: 0b795b722a5eb5b0923822f90474e2576a1a7855
+  OTPFieldView: 700a752fe62c41d1c4914c78aa500fb30d97c255
+  SpreadsheetView: 688dbd19f2b355df0eb09e486266fd913a013449
+
+PODFILE CHECKSUM: 3347adb204eeaeaa266647c06d579fbdb63fa839
+
+COCOAPODS: 1.14.3

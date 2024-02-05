@@ -1,0 +1,1811 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EAF3D3A4225750A85D9907D125497E9 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C891F0C2DCC7870721D20388AA9F642 /* MBCircularProgressBarLayer.m */; };
+		13D1005C4A876C53A97506EBCBFA0658 /* Pods-MoneyManagementPOCTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A798995865BBA71D58C29EFE6C8B115F /* Pods-MoneyManagementPOCTests-dummy.m */; };
+		19566CED5C43AB99F059D9DA194B80A7 /* OTPFieldView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9527525356D3A10A586EE872223673D /* OTPFieldView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B78315BA1A30595135FDF8F127E3A95 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C4E48BEC5339BF35B99BD9D70E9D05 /* Location.swift */; };
+		1C36AEAF5D43E5F841D0ECCADD14344D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1D89263598952F84B6BD7BE0391A296B /* Borders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ECB64EF06EC69E21D2FE676F70D385E /* Borders.swift */; };
+		2018B8EEBB508956A8FD7C74A42FD143 /* MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60576DF80D42AC4B273B9A550C73AB6A /* MBCircularProgressBar-dummy.m */; };
+		2246E987270477642CFF06AB851BF331 /* Pods-MoneyManagementPOC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5E565B59569172C0DB85EB493BBCB99 /* Pods-MoneyManagementPOC-dummy.m */; };
+		23B70DFAB46509F239F808F3445700FA /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7ADA9289D10486E49EECEA98D752FE /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-dummy.m */; };
+		2946A28D1B9ABBFA63DD161ADD0E5E5C /* Pods-MoneyManagementPOCTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3223B26FC99A7516CAF1545D321F3B5 /* Pods-MoneyManagementPOCTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B80253C2E3215BA9B0276F118E4A94F /* SpreadsheetViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42151AF2E3B08DBDC1487D915D6CD63E /* SpreadsheetViewDelegate.swift */; };
+		2E7B12D2107F7B7F2BDD194A1351E8AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		300CDB1E2866253E8ED7F666E18E5252 /* SpreadsheetView+UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908B360FA8825027B615F0A030E6B114 /* SpreadsheetView+UIScrollView.swift */; };
+		34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		351637FE8B7C78170C291AB59F3D5671 /* SpreadsheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21AF6C77B1C0273D9CEBEC4C846CEC3A /* SpreadsheetView.swift */; };
+		37EB082D8B049F296628A0D59CB943D1 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F33FE4A24809020EEC3BA189263891 /* example.png */; };
+		3AF59972CF9DE7354BF21402CC674065 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		438DB985F1C16DD3F73ADDEBCAE17496 /* SpreadsheetView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68906C70824BA7B6ADD72BAA4316BD22 /* SpreadsheetView+Layout.swift */; };
+		4A996511BAF4339A8A078F625BB3E5BE /* ScrollPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DE082C4411D5D777EB85FF62D26B94 /* ScrollPosition.swift */; };
+		4E1AADDE8BE91E17ECB5200E30FF75B4 /* ReuseQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AED28A1F5254466790519BBA6C0B91F /* ReuseQueue.swift */; };
+		50769F2BD54812A6581352CEBA027DA5 /* SpreadsheetView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CEBEC734C52751FDC1C303D9527818F /* SpreadsheetView-dummy.m */; };
+		515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFB78D6FDA1472CEBAB16593D725A75 /* DropDown+Appearance.swift */; };
+		68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75B352FF69619DCD3B4F9F55517FE6A2 /* DropDownCell.xib */; };
+		692B8568CCB35E83D3C54C4BCBEEFB1C /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B29828FCADFC14099D72B6D1B93972F /* SpreadsheetView+UIScrollViewDelegate.swift */; };
+		74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55D101809056C1EB04803F837630FC6 /* DPDConstants.swift */; };
+		75040FCBBE3E857A9A4B7F4B2AAB6250 /* Array+BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2822FDA3F1B02DD68E16DD4B3219CA8F /* Array+BinarySearch.swift */; };
+		778D379DA472B7960C3AD5793AC46BE0 /* OTPFieldView.h in Headers */ = {isa = PBXBuildFile; fileRef = 549D349A3E633C150750ECB3BEEAAB37 /* OTPFieldView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7983ED2101F0030E950ACB07E9701278 /* SpreadsheetView+UIViewHierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6116175DD2351FA59C300E78FE0B2EE8 /* SpreadsheetView+UIViewHierarchy.swift */; };
+		7B874B7B3EE6D4AF24547B6C3CE232B0 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F955C5512680EF9637594D078791CB63 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8010810AE4B0D845840D905B16F65519 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		81B9AD9325892A90B5DE5DE1275EC14A /* SpreadsheetView+CirclularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9375047CFB2A71CB2694E826AB1093ED /* SpreadsheetView+CirclularScrolling.swift */; };
+		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = B90DBD20468EB6783661639DBF21037F /* DropDown.swift */; };
+		879273926E68528791D4C6BDD744F236 /* SpreadsheetView+UISnapshotting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2BB62C8FD1B8BF99428D655D34CAE2 /* SpreadsheetView+UISnapshotting.swift */; };
+		89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8DC3150AE56E250F781C1571257CC6 /* DPDKeyboardListener.swift */; };
+		907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E38841D536135BC61CD8D899EF884FA /* DropDown-dummy.m */; };
+		964683DF10B585966023B9B3B1DEDB89 /* Pods-MoneyManagementPOC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 351D68E59F8C2F9CBFB6423B03C441A8 /* Pods-MoneyManagementPOC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9871B0FE95E5E53674B3AFE9CFCC0657 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		9A2923EE6EC1969B993224C9B29D2273 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = B111542BE1445D1D9FA52AEA1E0599CF /* MBCircularProgressBarLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB4CBDFE92F4E8ED8DEF17B0D55548B /* OTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F25548146B3C45C7DF87D553642D9D9 /* OTPTextField.swift */; };
+		9DF4767FEF93469554885378CACDED7D /* CellRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0323D309399F7299BE3CD6EA34B77287 /* CellRange.swift */; };
+		9FF5213A47F765CB8E1FBFC2DD271BB9 /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37462E9A773C7ED84246878698174F61 /* LayoutEngine.swift */; };
+		A0B3390A85F8DE3F5A34AA593A17C5BF /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 911C6BC1E402CD232A60165865E16053 /* Address.swift */; };
+		A60AE45490BFB435DFE76393A09D4400 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		AE3A3FF9A48A17875E549C5C3DC3FC1B /* OTPFieldView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6909A87F0B50B62F8F4883C7C4ECCCA5 /* OTPFieldView-dummy.m */; };
+		AFB21BD844211B30544936F4AA4A64CF /* SpreadsheetViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC43656588A6417F66572510C33F0D0 /* SpreadsheetViewDataSource.swift */; };
+		B4BB9632B410AE70CCEC18CA02F4C48E /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD4B9CD031C5D00B0F9D9CF0F50132 /* MBCircularProgressBarView.m */; };
+		B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91491258B2F404D04848E868845D6D69 /* DPDUIView+Extension.swift */; };
+		BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB14C95D5845960ADFF571A0047B8519 /* DropDownCell.swift */; };
+		BF5C187D8C85AB3548B6EA7CE4B3B032 /* OTPFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D09B2C3BD498159EE203072844BDD81 /* OTPFieldView.swift */; };
+		C5CF39CA936333B1202268F032EFB9AC /* CircularScrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87A9877B9445DD91A4184EA8DA2A376 /* CircularScrolling.swift */; };
+		CCCC3058CA8FCD02B9D38E7F50F56D83 /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C359FBA95FA9B237D0FEDEF33504F59 /* MBCircularProgressBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDAD4286E3D273B35119D2782A7C7DAC /* SpreadsheetView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD8B607455FFEE4C165F20DFFCA33544 /* SpreadsheetView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B130DFB001C3217D43F2B5AF7B646E4 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8C9BA39937427EDB2498D4F21EAD8E4 /* IndexPath+Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 894C5B5D42F7E33418BCAAFBC24B9077 /* IndexPath+Column.swift */; };
+		F0A2A519EDFE8BF62530A46DEC8E8402 /* MBCircularProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 264067AE866990B2FF8882D546D6CE55 /* MBCircularProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19C698DA0C0DE5096EACCDE63A174D0 /* MBCircularProgressBar-MBCircularProgressBar in Resources */ = {isa = PBXBuildFile; fileRef = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */; };
+		F502E76285DB5594BD2230E0AECB46B3 /* SpreadsheetView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342DACBE6828A0C10D43DD0479D8009B /* SpreadsheetView+Touches.swift */; };
+		F543D86D0403BB5856F333D724F1D4B7 /* Gridlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26466DC01E3222A65764A8D9CCDD62B /* Gridlines.swift */; };
+		F583C0689B9946A7CC18C0E766C19036 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		FAD93B457CE7745BEB896075C3924232 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DAAB81E5417CE367626B7AB2EB929A8 /* Cell.swift */; };
+		FE44945943571687C474828F70C37BE5 /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFBC80D5CB0397A54E913EBDBC3E317 /* ScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FBD7A967623E0B3D7AF1BAA05093429 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFA50DA07196AD4DB6512C559850F45;
+			remoteInfo = OTPFieldView;
+		};
+		13D8A9486FAFE147E2E989B7958F95DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A631E5C62ECCBC60F6C77B6DBB7B0A1;
+			remoteInfo = SpreadsheetView;
+		};
+		266C9CB2A1A0D3559A55AE80D8EEF8D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BFA50DA07196AD4DB6512C559850F45;
+			remoteInfo = OTPFieldView;
+		};
+		44F6ECE2759C83835DC774F4278462FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		56B014B483982E514B9F08E484152DB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		A2483EAC093D625FBCDC491D7A91D10C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C66314D4FE8420A19BA7BE08E2759C0A;
+			remoteInfo = "Pods-MoneyManagementPOC";
+		};
+		A606E7C7A1E972DA5EC26513053D8974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46FA1E1D7ABC29B96888E2D9085D474F;
+			remoteInfo = MBCircularProgressBar;
+		};
+		D31B54000F666D8DDEA8BA5FDED233AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		D5EA3E0B8D419738D9961C16CFA29A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A631E5C62ECCBC60F6C77B6DBB7B0A1;
+			remoteInfo = SpreadsheetView;
+		};
+		DCEF6C807BD79C8AC02228FF53DAB2C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BA5E348E64AFAB335EC680A67122E64;
+			remoteInfo = "MBCircularProgressBar-MBCircularProgressBar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01387EC51F93E89B9CB77EFFA3C1F2DB /* SpreadsheetView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpreadsheetView-prefix.pch"; sourceTree = "<group>"; };
+		0323D309399F7299BE3CD6EA34B77287 /* CellRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CellRange.swift; path = Framework/Sources/CellRange.swift; sourceTree = "<group>"; };
+		0F6174CF7A9601E71375127ED78B48AE /* Pods-MoneyManagementPOC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyManagementPOC-acknowledgements.plist"; sourceTree = "<group>"; };
+		11035884E42A031D86616C5485182102 /* OTPFieldView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPFieldView-prefix.pch"; sourceTree = "<group>"; };
+		1ADD4B9CD031C5D00B0F9D9CF0F50132 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		1CBB9730B6EA3B63DC1929FED46703FD /* OTPFieldView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OTPFieldView-Info.plist"; sourceTree = "<group>"; };
+		1CEBEC734C52751FDC1C303D9527818F /* SpreadsheetView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpreadsheetView-dummy.m"; sourceTree = "<group>"; };
+		21AF6C77B1C0273D9CEBEC4C846CEC3A /* SpreadsheetView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreadsheetView.swift; path = Framework/Sources/SpreadsheetView.swift; sourceTree = "<group>"; };
+		248A3C4C446B2C6218BB25B021B91369 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		26381CEEE3E8F5BFAA0F809F3EAF01B2 /* OTPFieldView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPFieldView.debug.xcconfig; sourceTree = "<group>"; };
+		264067AE866990B2FF8882D546D6CE55 /* MBCircularProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		2822FDA3F1B02DD68E16DD4B3219CA8F /* Array+BinarySearch.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+BinarySearch.swift"; path = "Framework/Sources/Array+BinarySearch.swift"; sourceTree = "<group>"; };
+		2947C23C1142950692F449A92D9E84CF /* MBCircularProgressBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.debug.xcconfig; sourceTree = "<group>"; };
+		2F25548146B3C45C7DF87D553642D9D9 /* OTPTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPTextField.swift; path = OTPFieldView/OTPTextField.swift; sourceTree = "<group>"; };
+		342DACBE6828A0C10D43DD0479D8009B /* SpreadsheetView+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+Touches.swift"; path = "Framework/Sources/SpreadsheetView+Touches.swift"; sourceTree = "<group>"; };
+		351D68E59F8C2F9CBFB6423B03C441A8 /* Pods-MoneyManagementPOC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyManagementPOC-umbrella.h"; sourceTree = "<group>"; };
+		362286818B1B760005C2BC3A23CDC5DF /* SpreadsheetView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpreadsheetView-Info.plist"; sourceTree = "<group>"; };
+		37462E9A773C7ED84246878698174F61 /* LayoutEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutEngine.swift; path = Framework/Sources/LayoutEngine.swift; sourceTree = "<group>"; };
+		386984A62C9B5ACF8411E63295D4681F /* Pods-MoneyManagementPOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyManagementPOC.release.xcconfig"; sourceTree = "<group>"; };
+		3AD1F1975DEE21534CDE1B2330D52BAC /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		3BFBC80D5CB0397A54E913EBDBC3E317 /* ScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollView.swift; path = Framework/Sources/ScrollView.swift; sourceTree = "<group>"; };
+		3E344E65101097F3EEBDD18028679107 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests-Info.plist"; sourceTree = "<group>"; };
+		42151AF2E3B08DBDC1487D915D6CD63E /* SpreadsheetViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreadsheetViewDelegate.swift; path = Framework/Sources/SpreadsheetViewDelegate.swift; sourceTree = "<group>"; };
+		4AED28A1F5254466790519BBA6C0B91F /* ReuseQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseQueue.swift; path = Framework/Sources/ReuseQueue.swift; sourceTree = "<group>"; };
+		4B130DFB001C3217D43F2B5AF7B646E4 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		4B29828FCADFC14099D72B6D1B93972F /* SpreadsheetView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+UIScrollViewDelegate.swift"; path = "Framework/Sources/SpreadsheetView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		4B7ADA9289D10486E49EECEA98D752FE /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests-dummy.m"; sourceTree = "<group>"; };
+		4C90AB1804B27704DF6B2A50AAEE904A /* Pods-MoneyManagementPOC-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoneyManagementPOC-frameworks.sh"; sourceTree = "<group>"; };
+		4CB100E1396B9FC6290EF4109F0EC85D /* SpreadsheetView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpreadsheetView.modulemap; sourceTree = "<group>"; };
+		4E37B71FE49ACB39CDAB70088B7AD037 /* Pods-MoneyManagementPOCTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyManagementPOCTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5180685CA6FD9D00816B16BB1F4EEFAA /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests.modulemap"; sourceTree = "<group>"; };
+		542DFDE2DBC4955EC9B4E02622EBE13D /* Pods-MoneyManagementPOCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyManagementPOCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		549D349A3E633C150750ECB3BEEAAB37 /* OTPFieldView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OTPFieldView.h; path = OTPFieldView/OTPFieldView.h; sourceTree = "<group>"; };
+		597ADD05D9C4BB010E58DACBF15A15E5 /* DropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.release.xcconfig; sourceTree = "<group>"; };
+		5E085CBD8CF9F93787D52AEF8F950AA6 /* MBCircularProgressBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBCircularProgressBar.release.xcconfig; sourceTree = "<group>"; };
+		60576DF80D42AC4B273B9A550C73AB6A /* MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		6116175DD2351FA59C300E78FE0B2EE8 /* SpreadsheetView+UIViewHierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+UIViewHierarchy.swift"; path = "Framework/Sources/SpreadsheetView+UIViewHierarchy.swift"; sourceTree = "<group>"; };
+		61F33FE4A24809020EEC3BA189263891 /* example.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = example.png; path = Pod/Assets/example.png; sourceTree = "<group>"; };
+		640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBCircularProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65621B7DE4AF8C3384899FB51662BAA3 /* DropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.debug.xcconfig; sourceTree = "<group>"; };
+		68906C70824BA7B6ADD72BAA4316BD22 /* SpreadsheetView+Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+Layout.swift"; path = "Framework/Sources/SpreadsheetView+Layout.swift"; sourceTree = "<group>"; };
+		6909A87F0B50B62F8F4883C7C4ECCCA5 /* OTPFieldView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OTPFieldView-dummy.m"; sourceTree = "<group>"; };
+		6A16A5F0B64CDDD95875596EF1339475 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A29B7ACD0DE6E0679EC26C0C92F207D /* Pods-MoneyManagementPOCTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyManagementPOCTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B2BB62C8FD1B8BF99428D655D34CAE2 /* SpreadsheetView+UISnapshotting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+UISnapshotting.swift"; path = "Framework/Sources/SpreadsheetView+UISnapshotting.swift"; sourceTree = "<group>"; };
+		6C359FBA95FA9B237D0FEDEF33504F59 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		6C6DBDA2922182510462C3E73F0FEB29 /* OTPFieldView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OTPFieldView.release.xcconfig; sourceTree = "<group>"; };
+		6E38841D536135BC61CD8D899EF884FA /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		6ECB64EF06EC69E21D2FE676F70D385E /* Borders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Borders.swift; path = Framework/Sources/Borders.swift; sourceTree = "<group>"; };
+		75B352FF69619DCD3B4F9F55517FE6A2 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		767889528265FFB84D9A36472F3C9064 /* Pods-MoneyManagementPOCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyManagementPOCTests.release.xcconfig"; sourceTree = "<group>"; };
+		7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MBCircularProgressBar-MBCircularProgressBar"; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E32FD6641D84C2BFFB3021038A00BFF /* Pods-MoneyManagementPOCTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyManagementPOCTests.modulemap"; sourceTree = "<group>"; };
+		86AD30F9524530C920D362962A59765B /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		894C5B5D42F7E33418BCAAFBC24B9077 /* IndexPath+Column.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IndexPath+Column.swift"; path = "Framework/Sources/IndexPath+Column.swift"; sourceTree = "<group>"; };
+		8B2E072D18DC5741BF3EBCD59C2E50E3 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C891F0C2DCC7870721D20388AA9F642 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		8D09B2C3BD498159EE203072844BDD81 /* OTPFieldView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OTPFieldView.swift; path = OTPFieldView/OTPFieldView.swift; sourceTree = "<group>"; };
+		8DAAB81E5417CE367626B7AB2EB929A8 /* Cell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cell.swift; path = Framework/Sources/Cell.swift; sourceTree = "<group>"; };
+		8E7A7A5C5BB49612ED363F07C3289FD9 /* Pods-MoneyManagementPOCTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyManagementPOCTests"; path = Pods_MoneyManagementPOCTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		908B360FA8825027B615F0A030E6B114 /* SpreadsheetView+UIScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+UIScrollView.swift"; path = "Framework/Sources/SpreadsheetView+UIScrollView.swift"; sourceTree = "<group>"; };
+		911C6BC1E402CD232A60165865E16053 /* Address.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Framework/Sources/Address.swift; sourceTree = "<group>"; };
+		91491258B2F404D04848E868845D6D69 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		9375047CFB2A71CB2694E826AB1093ED /* SpreadsheetView+CirclularScrolling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SpreadsheetView+CirclularScrolling.swift"; path = "Framework/Sources/SpreadsheetView+CirclularScrolling.swift"; sourceTree = "<group>"; };
+		97E149B232524BFE2403EF8D31F946B1 /* Pods-MoneyManagementPOC-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyManagementPOC-Info.plist"; sourceTree = "<group>"; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A002FEE7A8DA7864DCFFAB5871C6EAF3 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		A4C4E48BEC5339BF35B99BD9D70E9D05 /* Location.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Framework/Sources/Location.swift; sourceTree = "<group>"; };
+		A5E565B59569172C0DB85EB493BBCB99 /* Pods-MoneyManagementPOC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyManagementPOC-dummy.m"; sourceTree = "<group>"; };
+		A798995865BBA71D58C29EFE6C8B115F /* Pods-MoneyManagementPOCTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoneyManagementPOCTests-dummy.m"; sourceTree = "<group>"; };
+		A87A9877B9445DD91A4184EA8DA2A376 /* CircularScrolling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircularScrolling.swift; path = Framework/Sources/CircularScrolling.swift; sourceTree = "<group>"; };
+		AE9B884EBD08952D3197671321FAA308 /* SpreadsheetView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpreadsheetView; path = SpreadsheetView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B097329AC46AD5427452CC86D29B02C9 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B111542BE1445D1D9FA52AEA1E0599CF /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		B2DE082C4411D5D777EB85FF62D26B94 /* ScrollPosition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScrollPosition.swift; path = Framework/Sources/ScrollPosition.swift; sourceTree = "<group>"; };
+		B8279AA455DB6031EFAF40F425CA9610 /* Pods-MoneyManagementPOC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyManagementPOC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B90DBD20468EB6783661639DBF21037F /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		B95F85E8A10EC106799DA3A32197C8CD /* MBCircularProgressBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBCircularProgressBar-Info.plist"; sourceTree = "<group>"; };
+		BD8B607455FFEE4C165F20DFFCA33544 /* SpreadsheetView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpreadsheetView-umbrella.h"; sourceTree = "<group>"; };
+		C0FC0934258E2D33AEA1FE37DE92C2E5 /* Pods-MoneyManagementPOCTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoneyManagementPOCTests-Info.plist"; sourceTree = "<group>"; };
+		C9527525356D3A10A586EE872223673D /* OTPFieldView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OTPFieldView-umbrella.h"; sourceTree = "<group>"; };
+		CA507A843C490FDDEBF06B78C6E2DF88 /* OTPFieldView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OTPFieldView.modulemap; sourceTree = "<group>"; };
+		CAC43656588A6417F66572510C33F0D0 /* SpreadsheetViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpreadsheetViewDataSource.swift; path = Framework/Sources/SpreadsheetViewDataSource.swift; sourceTree = "<group>"; };
+		CD3754AE637CBF1698C03699185A0C0E /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		D04E37CAE130CFE9152F3779F1E35C17 /* Pods-MoneyManagementPOC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MoneyManagementPOC.modulemap"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D26466DC01E3222A65764A8D9CCDD62B /* Gridlines.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gridlines.swift; path = Framework/Sources/Gridlines.swift; sourceTree = "<group>"; };
+		D3223B26FC99A7516CAF1545D321F3B5 /* Pods-MoneyManagementPOCTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyManagementPOCTests-umbrella.h"; sourceTree = "<group>"; };
+		DC3F15C25FF71BE2615144FF3115F05B /* Pods-MoneyManagementPOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoneyManagementPOC.debug.xcconfig"; sourceTree = "<group>"; };
+		DCC8CE43CD587894C354905297B6AA69 /* Pods-MoneyManagementPOC */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyManagementPOC"; path = Pods_MoneyManagementPOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E68801479BEFF086969C28E03678966F /* MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		E8AD9FBCA7E3059CD43F99F3E426C3F4 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EB14C95D5845960ADFF571A0047B8519 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		EBAB8E398637B3A88A61C76AEDEA6E5B /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests"; path = Pods_MoneyManagementPOC_MoneyManagementPOCUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFB78D6FDA1472CEBAB16593D725A75 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		EE8DC3150AE56E250F781C1571257CC6 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		F1E2A148BDC633C99EFB5FBBF1C1D163 /* MBCircularProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBCircularProgressBar.modulemap; sourceTree = "<group>"; };
+		F3E1FD52E734499786E2091D3965849B /* SpreadsheetView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpreadsheetView.debug.xcconfig; sourceTree = "<group>"; };
+		F55D101809056C1EB04803F837630FC6 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		F955C5512680EF9637594D078791CB63 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests-umbrella.h"; sourceTree = "<group>"; };
+		FBE9F823BD3B562F51F4B91859DD9F57 /* SpreadsheetView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpreadsheetView.release.xcconfig; sourceTree = "<group>"; };
+		FD1309C85A2B4DD96C17CEE227B41C92 /* OTPFieldView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OTPFieldView; path = OTPFieldView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13DC967D6455D208307A8C73993D7574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3720773679F26F94F00C8F4686425FD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AF59972CF9DE7354BF21402CC674065 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E1C7851C4925B86897BE34CD1C37D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F583C0689B9946A7CC18C0E766C19036 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D86F4481D9328BF45B637B906B3122 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21843CC7E3CD122264BA4FF4BCD6BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A60AE45490BFB435DFE76393A09D4400 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD6249A9F867C19016C07F749D833CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8010810AE4B0D845840D905B16F65519 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6DCC45F4B5C007F3BCBC156DCE90C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C36AEAF5D43E5F841D0ECCADD14344D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D56FCD4AD79AFB410679C8C699A9442C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7B12D2107F7B7F2BDD194A1351E8AF /* Foundation.framework in Frameworks */,
+				9871B0FE95E5E53674B3AFE9CFCC0657 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DAE1B7885256D1452A9780DADB66D31 /* SpreadsheetView */ = {
+			isa = PBXGroup;
+			children = (
+				911C6BC1E402CD232A60165865E16053 /* Address.swift */,
+				2822FDA3F1B02DD68E16DD4B3219CA8F /* Array+BinarySearch.swift */,
+				6ECB64EF06EC69E21D2FE676F70D385E /* Borders.swift */,
+				8DAAB81E5417CE367626B7AB2EB929A8 /* Cell.swift */,
+				0323D309399F7299BE3CD6EA34B77287 /* CellRange.swift */,
+				A87A9877B9445DD91A4184EA8DA2A376 /* CircularScrolling.swift */,
+				D26466DC01E3222A65764A8D9CCDD62B /* Gridlines.swift */,
+				894C5B5D42F7E33418BCAAFBC24B9077 /* IndexPath+Column.swift */,
+				37462E9A773C7ED84246878698174F61 /* LayoutEngine.swift */,
+				A4C4E48BEC5339BF35B99BD9D70E9D05 /* Location.swift */,
+				4AED28A1F5254466790519BBA6C0B91F /* ReuseQueue.swift */,
+				B2DE082C4411D5D777EB85FF62D26B94 /* ScrollPosition.swift */,
+				3BFBC80D5CB0397A54E913EBDBC3E317 /* ScrollView.swift */,
+				21AF6C77B1C0273D9CEBEC4C846CEC3A /* SpreadsheetView.swift */,
+				9375047CFB2A71CB2694E826AB1093ED /* SpreadsheetView+CirclularScrolling.swift */,
+				68906C70824BA7B6ADD72BAA4316BD22 /* SpreadsheetView+Layout.swift */,
+				342DACBE6828A0C10D43DD0479D8009B /* SpreadsheetView+Touches.swift */,
+				908B360FA8825027B615F0A030E6B114 /* SpreadsheetView+UIScrollView.swift */,
+				4B29828FCADFC14099D72B6D1B93972F /* SpreadsheetView+UIScrollViewDelegate.swift */,
+				6B2BB62C8FD1B8BF99428D655D34CAE2 /* SpreadsheetView+UISnapshotting.swift */,
+				6116175DD2351FA59C300E78FE0B2EE8 /* SpreadsheetView+UIViewHierarchy.swift */,
+				CAC43656588A6417F66572510C33F0D0 /* SpreadsheetViewDataSource.swift */,
+				42151AF2E3B08DBDC1487D915D6CD63E /* SpreadsheetViewDelegate.swift */,
+				305E1B27BEFAD6212EE361AE1EB63FFE /* Support Files */,
+			);
+			path = SpreadsheetView;
+			sourceTree = "<group>";
+		};
+		2E909A603EC01AE819EBA73A0CD6A344 /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				B111542BE1445D1D9FA52AEA1E0599CF /* MBCircularProgressBarLayer.h */,
+				8C891F0C2DCC7870721D20388AA9F642 /* MBCircularProgressBarLayer.m */,
+				6C359FBA95FA9B237D0FEDEF33504F59 /* MBCircularProgressBarView.h */,
+				1ADD4B9CD031C5D00B0F9D9CF0F50132 /* MBCircularProgressBarView.m */,
+				34D5BF26C2EF1DD81F4B2AD04BE8A030 /* Resources */,
+				3DFE031489E2F4AAD1AF9417E22BA32A /* Support Files */,
+			);
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		305E1B27BEFAD6212EE361AE1EB63FFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CB100E1396B9FC6290EF4109F0EC85D /* SpreadsheetView.modulemap */,
+				1CEBEC734C52751FDC1C303D9527818F /* SpreadsheetView-dummy.m */,
+				362286818B1B760005C2BC3A23CDC5DF /* SpreadsheetView-Info.plist */,
+				01387EC51F93E89B9CB77EFFA3C1F2DB /* SpreadsheetView-prefix.pch */,
+				BD8B607455FFEE4C165F20DFFCA33544 /* SpreadsheetView-umbrella.h */,
+				F3E1FD52E734499786E2091D3965849B /* SpreadsheetView.debug.xcconfig */,
+				FBE9F823BD3B562F51F4B91859DD9F57 /* SpreadsheetView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpreadsheetView";
+			sourceTree = "<group>";
+		};
+		32D95F7AB8552ECE13F22E3567F50835 /* Pods-MoneyManagementPOC */ = {
+			isa = PBXGroup;
+			children = (
+				D04E37CAE130CFE9152F3779F1E35C17 /* Pods-MoneyManagementPOC.modulemap */,
+				B8279AA455DB6031EFAF40F425CA9610 /* Pods-MoneyManagementPOC-acknowledgements.markdown */,
+				0F6174CF7A9601E71375127ED78B48AE /* Pods-MoneyManagementPOC-acknowledgements.plist */,
+				A5E565B59569172C0DB85EB493BBCB99 /* Pods-MoneyManagementPOC-dummy.m */,
+				4C90AB1804B27704DF6B2A50AAEE904A /* Pods-MoneyManagementPOC-frameworks.sh */,
+				97E149B232524BFE2403EF8D31F946B1 /* Pods-MoneyManagementPOC-Info.plist */,
+				351D68E59F8C2F9CBFB6423B03C441A8 /* Pods-MoneyManagementPOC-umbrella.h */,
+				DC3F15C25FF71BE2615144FF3115F05B /* Pods-MoneyManagementPOC.debug.xcconfig */,
+				386984A62C9B5ACF8411E63295D4681F /* Pods-MoneyManagementPOC.release.xcconfig */,
+			);
+			name = "Pods-MoneyManagementPOC";
+			path = "Target Support Files/Pods-MoneyManagementPOC";
+			sourceTree = "<group>";
+		};
+		34D5BF26C2EF1DD81F4B2AD04BE8A030 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				61F33FE4A24809020EEC3BA189263891 /* example.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3DFE031489E2F4AAD1AF9417E22BA32A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1E2A148BDC633C99EFB5FBBF1C1D163 /* MBCircularProgressBar.modulemap */,
+				60576DF80D42AC4B273B9A550C73AB6A /* MBCircularProgressBar-dummy.m */,
+				B95F85E8A10EC106799DA3A32197C8CD /* MBCircularProgressBar-Info.plist */,
+				E68801479BEFF086969C28E03678966F /* MBCircularProgressBar-prefix.pch */,
+				264067AE866990B2FF8882D546D6CE55 /* MBCircularProgressBar-umbrella.h */,
+				2947C23C1142950692F449A92D9E84CF /* MBCircularProgressBar.debug.xcconfig */,
+				5E085CBD8CF9F93787D52AEF8F950AA6 /* MBCircularProgressBar.release.xcconfig */,
+				248A3C4C446B2C6218BB25B021B91369 /* ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		76D9CCD0D5F988390990485EAC1DA649 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AD1F1975DEE21534CDE1B2330D52BAC /* DropDown.modulemap */,
+				6E38841D536135BC61CD8D899EF884FA /* DropDown-dummy.m */,
+				CD3754AE637CBF1698C03699185A0C0E /* DropDown-Info.plist */,
+				A002FEE7A8DA7864DCFFAB5871C6EAF3 /* DropDown-prefix.pch */,
+				4B130DFB001C3217D43F2B5AF7B646E4 /* DropDown-umbrella.h */,
+				65621B7DE4AF8C3384899FB51662BAA3 /* DropDown.debug.xcconfig */,
+				597ADD05D9C4BB010E58DACBF15A15E5 /* DropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		85435AC246340181043BB2A721278D7E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				32D95F7AB8552ECE13F22E3567F50835 /* Pods-MoneyManagementPOC */,
+				A9EB0E5C0F00503FE4EA8B25F14BE110 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */,
+				C031ABD618DE2B5FEE2E625D53FAB716 /* Pods-MoneyManagementPOCTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		886EDD6AACB45A2F7E33C07D4111BE16 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA507A843C490FDDEBF06B78C6E2DF88 /* OTPFieldView.modulemap */,
+				6909A87F0B50B62F8F4883C7C4ECCCA5 /* OTPFieldView-dummy.m */,
+				1CBB9730B6EA3B63DC1929FED46703FD /* OTPFieldView-Info.plist */,
+				11035884E42A031D86616C5485182102 /* OTPFieldView-prefix.pch */,
+				C9527525356D3A10A586EE872223673D /* OTPFieldView-umbrella.h */,
+				26381CEEE3E8F5BFAA0F809F3EAF01B2 /* OTPFieldView.debug.xcconfig */,
+				6C6DBDA2922182510462C3E73F0FEB29 /* OTPFieldView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OTPFieldView";
+			sourceTree = "<group>";
+		};
+		8AEA92DE098DB2253EBCF964498AE001 /* OTPFieldView */ = {
+			isa = PBXGroup;
+			children = (
+				549D349A3E633C150750ECB3BEEAAB37 /* OTPFieldView.h */,
+				8D09B2C3BD498159EE203072844BDD81 /* OTPFieldView.swift */,
+				2F25548146B3C45C7DF87D553642D9D9 /* OTPTextField.swift */,
+				886EDD6AACB45A2F7E33C07D4111BE16 /* Support Files */,
+			);
+			path = OTPFieldView;
+			sourceTree = "<group>";
+		};
+		A060C57552BD4A270AA599DBCC09EA77 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				F55D101809056C1EB04803F837630FC6 /* DPDConstants.swift */,
+				EE8DC3150AE56E250F781C1571257CC6 /* DPDKeyboardListener.swift */,
+				91491258B2F404D04848E868845D6D69 /* DPDUIView+Extension.swift */,
+				B90DBD20468EB6783661639DBF21037F /* DropDown.swift */,
+				EDFB78D6FDA1472CEBAB16593D725A75 /* DropDown+Appearance.swift */,
+				EB14C95D5845960ADFF571A0047B8519 /* DropDownCell.swift */,
+				EA86816E81F552C30C1D5AD6376365A8 /* Resources */,
+				76D9CCD0D5F988390990485EAC1DA649 /* Support Files */,
+			);
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+		A9EB0E5C0F00503FE4EA8B25F14BE110 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5180685CA6FD9D00816B16BB1F4EEFAA /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.modulemap */,
+				E8AD9FBCA7E3059CD43F99F3E426C3F4 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-acknowledgements.markdown */,
+				6A16A5F0B64CDDD95875596EF1339475 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-acknowledgements.plist */,
+				4B7ADA9289D10486E49EECEA98D752FE /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-dummy.m */,
+				B097329AC46AD5427452CC86D29B02C9 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-frameworks.sh */,
+				3E344E65101097F3EEBDD18028679107 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-Info.plist */,
+				F955C5512680EF9637594D078791CB63 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-umbrella.h */,
+				8B2E072D18DC5741BF3EBCD59C2E50E3 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.debug.xcconfig */,
+				86AD30F9524530C920D362962A59765B /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.release.xcconfig */,
+			);
+			name = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests";
+			path = "Target Support Files/Pods-MoneyManagementPOC-MoneyManagementPOCUITests";
+			sourceTree = "<group>";
+		};
+		C031ABD618DE2B5FEE2E625D53FAB716 /* Pods-MoneyManagementPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E32FD6641D84C2BFFB3021038A00BFF /* Pods-MoneyManagementPOCTests.modulemap */,
+				4E37B71FE49ACB39CDAB70088B7AD037 /* Pods-MoneyManagementPOCTests-acknowledgements.markdown */,
+				6A29B7ACD0DE6E0679EC26C0C92F207D /* Pods-MoneyManagementPOCTests-acknowledgements.plist */,
+				A798995865BBA71D58C29EFE6C8B115F /* Pods-MoneyManagementPOCTests-dummy.m */,
+				C0FC0934258E2D33AEA1FE37DE92C2E5 /* Pods-MoneyManagementPOCTests-Info.plist */,
+				D3223B26FC99A7516CAF1545D321F3B5 /* Pods-MoneyManagementPOCTests-umbrella.h */,
+				542DFDE2DBC4955EC9B4E02622EBE13D /* Pods-MoneyManagementPOCTests.debug.xcconfig */,
+				767889528265FFB84D9A36472F3C9064 /* Pods-MoneyManagementPOCTests.release.xcconfig */,
+			);
+			name = "Pods-MoneyManagementPOCTests";
+			path = "Target Support Files/Pods-MoneyManagementPOCTests";
+			sourceTree = "<group>";
+		};
+		C13F8683CAE5AA16545A90703BE2369D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A060C57552BD4A270AA599DBCC09EA77 /* DropDown */,
+				2E909A603EC01AE819EBA73A0CD6A344 /* MBCircularProgressBar */,
+				8AEA92DE098DB2253EBCF964498AE001 /* OTPFieldView */,
+				2DAE1B7885256D1452A9780DADB66D31 /* SpreadsheetView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				C13F8683CAE5AA16545A90703BE2369D /* Pods */,
+				F36DCEA774D150D67FD22BBF62466DFD /* Products */,
+				85435AC246340181043BB2A721278D7E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EA86816E81F552C30C1D5AD6376365A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75B352FF69619DCD3B4F9F55517FE6A2 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F36DCEA774D150D67FD22BBF62466DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar.framework */,
+				7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */,
+				FD1309C85A2B4DD96C17CEE227B41C92 /* OTPFieldView */,
+				DCC8CE43CD587894C354905297B6AA69 /* Pods-MoneyManagementPOC */,
+				EBAB8E398637B3A88A61C76AEDEA6E5B /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */,
+				8E7A7A5C5BB49612ED363F07C3289FD9 /* Pods-MoneyManagementPOCTests */,
+				AE9B884EBD08952D3197671321FAA308 /* SpreadsheetView */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		444A043617DA5DACB36FA98280B0A99E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A2A519EDFE8BF62530A46DEC8E8402 /* MBCircularProgressBar-umbrella.h in Headers */,
+				9A2923EE6EC1969B993224C9B29D2273 /* MBCircularProgressBarLayer.h in Headers */,
+				CCCC3058CA8FCD02B9D38E7F50F56D83 /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512D069EA14F2A50E8E6A3F4A49009E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778D379DA472B7960C3AD5793AC46BE0 /* OTPFieldView.h in Headers */,
+				19566CED5C43AB99F059D9DA194B80A7 /* OTPFieldView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54C5E1ADF73377087CA3F9F19A9E9812 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDAD4286E3D273B35119D2782A7C7DAC /* SpreadsheetView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AA0B79C125127F8EC71CAAB81E3CC78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B874B7B3EE6D4AF24547B6C3CE232B0 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82C566BB9CD260DE3B1869AF8419E79C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				964683DF10B585966023B9B3B1DEDB89 /* Pods-MoneyManagementPOC-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97CE91431E229797751455423C79CA4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0A8C46EEE733B55971B1CC5ED65C9AA /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE63BFB6CAB1C28C77A5AA8E0CFCA8D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2946A28D1B9ABBFA63DD161ADD0E5E5C /* Pods-MoneyManagementPOCTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1FDE230101C856425D8A4435F8DCD2F2 /* Pods-MoneyManagementPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543795B47EDE678E4765AE25B9848D75 /* Build configuration list for PBXNativeTarget "Pods-MoneyManagementPOCTests" */;
+			buildPhases = (
+				BE63BFB6CAB1C28C77A5AA8E0CFCA8D5 /* Headers */,
+				66AFEFB2466E72339B2E9A8C8BA00223 /* Sources */,
+				B6DCC45F4B5C007F3BCBC156DCE90C76 /* Frameworks */,
+				C55822B25E166ED5E0A921E3090967BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58DE9447CEFE47E3FF8E8772A582EC05 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoneyManagementPOCTests";
+			productName = Pods_MoneyManagementPOCTests;
+			productReference = 8E7A7A5C5BB49612ED363F07C3289FD9 /* Pods-MoneyManagementPOCTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6433D111B6A10EB550A13E319D96F871 /* Build configuration list for PBXNativeTarget "OTPFieldView" */;
+			buildPhases = (
+				512D069EA14F2A50E8E6A3F4A49009E5 /* Headers */,
+				7169D6FD44672A7DD71CF81A51DCA21C /* Sources */,
+				A21843CC7E3CD122264BA4FF4BCD6BF5 /* Frameworks */,
+				5718415F2B342E587E537EDAE0A6A04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OTPFieldView;
+			productName = OTPFieldView;
+			productReference = FD1309C85A2B4DD96C17CEE227B41C92 /* OTPFieldView */;
+			productType = "com.apple.product-type.framework";
+		};
+		46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AD04FF097EB27A5CDEF787232EBEA72 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */;
+			buildPhases = (
+				444A043617DA5DACB36FA98280B0A99E /* Headers */,
+				DDC0FD3C31B394FF4EBD6499334D2BF7 /* Sources */,
+				3720773679F26F94F00C8F4686425FD7 /* Frameworks */,
+				25728E4AFAFE1E1E731EBE0C7F9EF2A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AAA19F7046938F7ED061D332FB0859A /* PBXTargetDependency */,
+			);
+			name = MBCircularProgressBar;
+			productName = MBCircularProgressBar;
+			productReference = 640B2CA36D53D84D0129B12A7FAC2E0B /* MBCircularProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7A631E5C62ECCBC60F6C77B6DBB7B0A1 /* SpreadsheetView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E9C1E0239CD8B060FAF93281471C7EE /* Build configuration list for PBXNativeTarget "SpreadsheetView" */;
+			buildPhases = (
+				54C5E1ADF73377087CA3F9F19A9E9812 /* Headers */,
+				EA13BE485D905164E3FE27849325BA05 /* Sources */,
+				D56FCD4AD79AFB410679C8C699A9442C /* Frameworks */,
+				4BD161D888EA0258BCED5B414B5E121A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpreadsheetView;
+			productName = SpreadsheetView;
+			productReference = AE9B884EBD08952D3197671321FAA308 /* SpreadsheetView */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4733D879C371B8502770FC42DAFAF2F3 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				4D0D88D3D70B54DC30962238E5907B11 /* Sources */,
+				13DC967D6455D208307A8C73993D7574 /* Frameworks */,
+				6EC58FAA1A3523879D346D73B495E794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			productName = MBCircularProgressBar;
+			productReference = 7CB12AE789452060456EBCEC68360820 /* MBCircularProgressBar-MBCircularProgressBar */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C66314D4FE8420A19BA7BE08E2759C0A /* Pods-MoneyManagementPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA49895E59C116DB6B98B3E6B7D11043 /* Build configuration list for PBXNativeTarget "Pods-MoneyManagementPOC" */;
+			buildPhases = (
+				82C566BB9CD260DE3B1869AF8419E79C /* Headers */,
+				5683B35753AE554418113AA3594BF2FD /* Sources */,
+				ABD6249A9F867C19016C07F749D833CF /* Frameworks */,
+				23FE243CD96D7A02A1015713F710D5C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EF41A48B950053E758B7C23FBA2236F /* PBXTargetDependency */,
+				4F4D0895D4ACC2109677BA7BA1B210B9 /* PBXTargetDependency */,
+				634286E09E375FB1FE3BA6B4F2AB5486 /* PBXTargetDependency */,
+				7D378556C39C52B6C5935A7CF54CBD0A /* PBXTargetDependency */,
+			);
+			name = "Pods-MoneyManagementPOC";
+			productName = Pods_MoneyManagementPOC;
+			productReference = DCC8CE43CD587894C354905297B6AA69 /* Pods-MoneyManagementPOC */;
+			productType = "com.apple.product-type.framework";
+		};
+		C6C80FAECF96E8C8307FBCB331F24D09 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A352AD7DA179C9126B4932F94C9153 /* Build configuration list for PBXNativeTarget "Pods-MoneyManagementPOC-MoneyManagementPOCUITests" */;
+			buildPhases = (
+				7AA0B79C125127F8EC71CAAB81E3CC78 /* Headers */,
+				F8727329CBC85452B251084A0CA2FCF7 /* Sources */,
+				6E1C7851C4925B86897BE34CD1C37D67 /* Frameworks */,
+				EC8552901C46807CBA42C19A8D6650B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3142EF735E1E2D61420F976F6249DFD2 /* PBXTargetDependency */,
+				9B455FA3DDB6E4B467C0D94EFE5B8B0C /* PBXTargetDependency */,
+				1DF4AB05DCC8F0B2FE59A847B13DB6CC /* PBXTargetDependency */,
+				65DA1EF59F2BD87DDB87B3AB148731F3 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoneyManagementPOC-MoneyManagementPOCUITests";
+			productName = Pods_MoneyManagementPOC_MoneyManagementPOCUITests;
+			productReference = EBAB8E398637B3A88A61C76AEDEA6E5B /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				97CE91431E229797751455423C79CA4F /* Headers */,
+				48864C435B3DB37698CF568C638CF98F /* Sources */,
+				808BE4E171BD75B6477EC2B77490C2B1 /* Frameworks */,
+				EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F36DCEA774D150D67FD22BBF62466DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */,
+				8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */,
+				3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */,
+				C66314D4FE8420A19BA7BE08E2759C0A /* Pods-MoneyManagementPOC */,
+				C6C80FAECF96E8C8307FBCB331F24D09 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests */,
+				1FDE230101C856425D8A4435F8DCD2F2 /* Pods-MoneyManagementPOCTests */,
+				7A631E5C62ECCBC60F6C77B6DBB7B0A1 /* SpreadsheetView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23FE243CD96D7A02A1015713F710D5C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25728E4AFAFE1E1E731EBE0C7F9EF2A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19C698DA0C0DE5096EACCDE63A174D0 /* MBCircularProgressBar-MBCircularProgressBar in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD161D888EA0258BCED5B414B5E121A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5718415F2B342E587E537EDAE0A6A04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EC58FAA1A3523879D346D73B495E794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37EB082D8B049F296628A0D59CB943D1 /* example.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C55822B25E166ED5E0A921E3090967BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8552901C46807CBA42C19A8D6650B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDE5B37A62BFF2F9A9BD2023B960CD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1653C561E14BBEAC9CF4873570D58 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48864C435B3DB37698CF568C638CF98F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74012B832FAF67F8D62A2B27CDAFE8B5 /* DPDConstants.swift in Sources */,
+				89A72A55273CE358DC4E7600F785C37B /* DPDKeyboardListener.swift in Sources */,
+				B73E510E851686F8184E26986A470458 /* DPDUIView+Extension.swift in Sources */,
+				84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */,
+				515E22E4255B6073C1897BDDB091A2B8 /* DropDown+Appearance.swift in Sources */,
+				907338727C09F65DB75AA7AB9E10C3B4 /* DropDown-dummy.m in Sources */,
+				BDC10974A8641F01C5665C61EA37A153 /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D0D88D3D70B54DC30962238E5907B11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5683B35753AE554418113AA3594BF2FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2246E987270477642CFF06AB851BF331 /* Pods-MoneyManagementPOC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66AFEFB2466E72339B2E9A8C8BA00223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13D1005C4A876C53A97506EBCBFA0658 /* Pods-MoneyManagementPOCTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7169D6FD44672A7DD71CF81A51DCA21C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF5C187D8C85AB3548B6EA7CE4B3B032 /* OTPFieldView.swift in Sources */,
+				AE3A3FF9A48A17875E549C5C3DC3FC1B /* OTPFieldView-dummy.m in Sources */,
+				9DB4CBDFE92F4E8ED8DEF17B0D55548B /* OTPTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDC0FD3C31B394FF4EBD6499334D2BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2018B8EEBB508956A8FD7C74A42FD143 /* MBCircularProgressBar-dummy.m in Sources */,
+				0EAF3D3A4225750A85D9907D125497E9 /* MBCircularProgressBarLayer.m in Sources */,
+				B4BB9632B410AE70CCEC18CA02F4C48E /* MBCircularProgressBarView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA13BE485D905164E3FE27849325BA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B3390A85F8DE3F5A34AA593A17C5BF /* Address.swift in Sources */,
+				75040FCBBE3E857A9A4B7F4B2AAB6250 /* Array+BinarySearch.swift in Sources */,
+				1D89263598952F84B6BD7BE0391A296B /* Borders.swift in Sources */,
+				FAD93B457CE7745BEB896075C3924232 /* Cell.swift in Sources */,
+				9DF4767FEF93469554885378CACDED7D /* CellRange.swift in Sources */,
+				C5CF39CA936333B1202268F032EFB9AC /* CircularScrolling.swift in Sources */,
+				F543D86D0403BB5856F333D724F1D4B7 /* Gridlines.swift in Sources */,
+				E8C9BA39937427EDB2498D4F21EAD8E4 /* IndexPath+Column.swift in Sources */,
+				9FF5213A47F765CB8E1FBFC2DD271BB9 /* LayoutEngine.swift in Sources */,
+				1B78315BA1A30595135FDF8F127E3A95 /* Location.swift in Sources */,
+				4E1AADDE8BE91E17ECB5200E30FF75B4 /* ReuseQueue.swift in Sources */,
+				4A996511BAF4339A8A078F625BB3E5BE /* ScrollPosition.swift in Sources */,
+				FE44945943571687C474828F70C37BE5 /* ScrollView.swift in Sources */,
+				351637FE8B7C78170C291AB59F3D5671 /* SpreadsheetView.swift in Sources */,
+				81B9AD9325892A90B5DE5DE1275EC14A /* SpreadsheetView+CirclularScrolling.swift in Sources */,
+				438DB985F1C16DD3F73ADDEBCAE17496 /* SpreadsheetView+Layout.swift in Sources */,
+				F502E76285DB5594BD2230E0AECB46B3 /* SpreadsheetView+Touches.swift in Sources */,
+				300CDB1E2866253E8ED7F666E18E5252 /* SpreadsheetView+UIScrollView.swift in Sources */,
+				692B8568CCB35E83D3C54C4BCBEEFB1C /* SpreadsheetView+UIScrollViewDelegate.swift in Sources */,
+				879273926E68528791D4C6BDD744F236 /* SpreadsheetView+UISnapshotting.swift in Sources */,
+				7983ED2101F0030E950ACB07E9701278 /* SpreadsheetView+UIViewHierarchy.swift in Sources */,
+				50769F2BD54812A6581352CEBA027DA5 /* SpreadsheetView-dummy.m in Sources */,
+				AFB21BD844211B30544936F4AA4A64CF /* SpreadsheetViewDataSource.swift in Sources */,
+				2B80253C2E3215BA9B0276F118E4A94F /* SpreadsheetViewDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8727329CBC85452B251084A0CA2FCF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B70DFAB46509F239F808F3445700FA /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1DF4AB05DCC8F0B2FE59A847B13DB6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTPFieldView;
+			target = 3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */;
+			targetProxy = 266C9CB2A1A0D3559A55AE80D8EEF8D3 /* PBXContainerItemProxy */;
+		};
+		1EF41A48B950053E758B7C23FBA2236F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = 56B014B483982E514B9F08E484152DB8 /* PBXContainerItemProxy */;
+		};
+		3142EF735E1E2D61420F976F6249DFD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = D31B54000F666D8DDEA8BA5FDED233AD /* PBXContainerItemProxy */;
+		};
+		4F4D0895D4ACC2109677BA7BA1B210B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = A606E7C7A1E972DA5EC26513053D8974 /* PBXContainerItemProxy */;
+		};
+		58DE9447CEFE47E3FF8E8772A582EC05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoneyManagementPOC";
+			target = C66314D4FE8420A19BA7BE08E2759C0A /* Pods-MoneyManagementPOC */;
+			targetProxy = A2483EAC093D625FBCDC491D7A91D10C /* PBXContainerItemProxy */;
+		};
+		634286E09E375FB1FE3BA6B4F2AB5486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OTPFieldView;
+			target = 3BFA50DA07196AD4DB6512C559850F45 /* OTPFieldView */;
+			targetProxy = 0FBD7A967623E0B3D7AF1BAA05093429 /* PBXContainerItemProxy */;
+		};
+		65DA1EF59F2BD87DDB87B3AB148731F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpreadsheetView;
+			target = 7A631E5C62ECCBC60F6C77B6DBB7B0A1 /* SpreadsheetView */;
+			targetProxy = D5EA3E0B8D419738D9961C16CFA29A70 /* PBXContainerItemProxy */;
+		};
+		7D378556C39C52B6C5935A7CF54CBD0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpreadsheetView;
+			target = 7A631E5C62ECCBC60F6C77B6DBB7B0A1 /* SpreadsheetView */;
+			targetProxy = 13D8A9486FAFE147E2E989B7958F95DA /* PBXContainerItemProxy */;
+		};
+		9AAA19F7046938F7ED061D332FB0859A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MBCircularProgressBar-MBCircularProgressBar";
+			target = 8BA5E348E64AFAB335EC680A67122E64 /* MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = DCEF6C807BD79C8AC02228FF53DAB2C7 /* PBXContainerItemProxy */;
+		};
+		9B455FA3DDB6E4B467C0D94EFE5B8B0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBCircularProgressBar;
+			target = 46FA1E1D7ABC29B96888E2D9085D474F /* MBCircularProgressBar */;
+			targetProxy = 44F6ECE2759C83835DC774F4278462FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00B2315BE612316635932618FF6A64FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E085CBD8CF9F93787D52AEF8F950AA6 /* MBCircularProgressBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D7B9548388A37998AC9A79E03784008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E1FD52E734499786E2091D3965849B /* SpreadsheetView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpreadsheetView/SpreadsheetView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpreadsheetView/SpreadsheetView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpreadsheetView/SpreadsheetView.modulemap";
+				PRODUCT_MODULE_NAME = SpreadsheetView;
+				PRODUCT_NAME = SpreadsheetView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F686D321CC940AD2FE01F2CA4AC8A78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2947C23C1142950692F449A92D9E84CF /* MBCircularProgressBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MBCircularProgressBar/MBCircularProgressBar.modulemap";
+				PRODUCT_MODULE_NAME = MBCircularProgressBar;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257CDD08CDB903297C7FD6DB3CC13215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBE9F823BD3B562F51F4B91859DD9F57 /* SpreadsheetView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpreadsheetView/SpreadsheetView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpreadsheetView/SpreadsheetView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpreadsheetView/SpreadsheetView.modulemap";
+				PRODUCT_MODULE_NAME = SpreadsheetView;
+				PRODUCT_NAME = SpreadsheetView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		66B5293E90616CA14F33F5A6CDF4EF5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 542DFDE2DBC4955EC9B4E02622EBE13D /* Pods-MoneyManagementPOCTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyManagementPOCTests/Pods-MoneyManagementPOCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyManagementPOCTests/Pods-MoneyManagementPOCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		753132AB0C8CF627431FC9B122E0A44F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E085CBD8CF9F93787D52AEF8F950AA6 /* MBCircularProgressBar.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				IBSC_MODULE = MBCircularProgressBar;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		77B551FC7561C31640945E047950E506 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 386984A62C9B5ACF8411E63295D4681F /* Pods-MoneyManagementPOC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyManagementPOC/Pods-MoneyManagementPOC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyManagementPOC/Pods-MoneyManagementPOC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7CC4393992D1B6380F5834478BFECEF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC3F15C25FF71BE2615144FF3115F05B /* Pods-MoneyManagementPOC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyManagementPOC/Pods-MoneyManagementPOC-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyManagementPOC/Pods-MoneyManagementPOC.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F6848FF8F4313943AE2C1E9B973E11D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AD30F9524530C920D362962A59765B /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyManagementPOC-MoneyManagementPOCUITests/Pods-MoneyManagementPOC-MoneyManagementPOCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyManagementPOC-MoneyManagementPOCUITests/Pods-MoneyManagementPOC-MoneyManagementPOCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		83DE653BEF0FDACEDAD26A6B0CE2AC51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B2E072D18DC5741BF3EBCD59C2E50E3 /* Pods-MoneyManagementPOC-MoneyManagementPOCUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyManagementPOC-MoneyManagementPOCUITests/Pods-MoneyManagementPOC-MoneyManagementPOCUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyManagementPOC-MoneyManagementPOCUITests/Pods-MoneyManagementPOC-MoneyManagementPOCUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		94B099E836251E7E341BF110DC1F5F93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767889528265FFB84D9A36472F3C9064 /* Pods-MoneyManagementPOCTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MoneyManagementPOCTests/Pods-MoneyManagementPOCTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MoneyManagementPOCTests/Pods-MoneyManagementPOCTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B63404BD7D3F122569C56BB2921CD67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26381CEEE3E8F5BFAA0F809F3EAF01B2 /* OTPFieldView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPFieldView/OTPFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPFieldView/OTPFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPFieldView/OTPFieldView.modulemap";
+				PRODUCT_MODULE_NAME = OTPFieldView;
+				PRODUCT_NAME = OTPFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A07598AD8F39E0E75E530F013C5CD233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6DBDA2922182510462C3E73F0FEB29 /* OTPFieldView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/OTPFieldView/OTPFieldView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OTPFieldView/OTPFieldView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/OTPFieldView/OTPFieldView.modulemap";
+				PRODUCT_MODULE_NAME = OTPFieldView;
+				PRODUCT_NAME = OTPFieldView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C24518E891FAA59668669823639498EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597ADD05D9C4BB010E58DACBF15A15E5 /* DropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65621B7DE4AF8C3384899FB51662BAA3 /* DropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4FF6A0D1970CA9705974E3CB2134802 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F7AC7C4E0920DEAC6DF88A7743778B60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2947C23C1142950692F449A92D9E84CF /* MBCircularProgressBar.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MBCircularProgressBar";
+				IBSC_MODULE = MBCircularProgressBar;
+				INFOPLIST_FILE = "Target Support Files/MBCircularProgressBar/ResourceBundle-MBCircularProgressBar-MBCircularProgressBar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4733D879C371B8502770FC42DAFAF2F3 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7AC7C4E0920DEAC6DF88A7743778B60 /* Debug */,
+				753132AB0C8CF627431FC9B122E0A44F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4FF6A0D1970CA9705974E3CB2134802 /* Debug */,
+				30E0B9EFD9A5C45D0D351231E81B30B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53052E6CBA1E65D6EF818199E617AC68 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CDE7BD114C532701D2E79C5CB4CAA8 /* Debug */,
+				C24518E891FAA59668669823639498EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543795B47EDE678E4765AE25B9848D75 /* Build configuration list for PBXNativeTarget "Pods-MoneyManagementPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B5293E90616CA14F33F5A6CDF4EF5A /* Debug */,
+				94B099E836251E7E341BF110DC1F5F93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AD04FF097EB27A5CDEF787232EBEA72 /* Build configuration list for PBXNativeTarget "MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F686D321CC940AD2FE01F2CA4AC8A78 /* Debug */,
+				00B2315BE612316635932618FF6A64FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6433D111B6A10EB550A13E319D96F871 /* Build configuration list for PBXNativeTarget "OTPFieldView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B63404BD7D3F122569C56BB2921CD67 /* Debug */,
+				A07598AD8F39E0E75E530F013C5CD233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E9C1E0239CD8B060FAF93281471C7EE /* Build configuration list for PBXNativeTarget "SpreadsheetView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D7B9548388A37998AC9A79E03784008 /* Debug */,
+				257CDD08CDB903297C7FD6DB3CC13215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A352AD7DA179C9126B4932F94C9153 /* Build configuration list for PBXNativeTarget "Pods-MoneyManagementPOC-MoneyManagementPOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DE653BEF0FDACEDAD26A6B0CE2AC51 /* Debug */,
+				7F6848FF8F4313943AE2C1E9B973E11D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA49895E59C116DB6B98B3E6B7D11043 /* Build configuration list for PBXNativeTarget "Pods-MoneyManagementPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC4393992D1B6380F5834478BFECEF5 /* Debug */,
+				77B551FC7561C31640945E047950E506 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

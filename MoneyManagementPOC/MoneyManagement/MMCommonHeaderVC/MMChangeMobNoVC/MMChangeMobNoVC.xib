@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMChangeMobNoVC" customModule="Fintoo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnContinue" destination="Diq-L8-VKj" id="wiV-9D-MZW"/>
+                <outlet property="tblViewMobList" destination="NLW-j3-38C" id="sbs-R2-prY"/>
+                <outlet property="view" destination="Nfh-Hw-Duu" id="xPL-RI-hw7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Nfh-Hw-Duu">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="NLW-j3-38C">
+                    <rect key="frame" x="10" y="69" width="373" height="674"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="1mt-Rw-X0K"/>
+                        <outlet property="delegate" destination="-1" id="7Yh-c2-sWK"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Diq-L8-VKj">
+                    <rect key="frame" x="40" y="753" width="313" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="klG-r1-K1p"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Continue">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="onContinuePressed:" destination="-1" eventType="touchUpInside" id="Kp6-8G-Te1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="4Ed-01-vo5"/>
+            <color key="backgroundColor" red="0.95686274510000002" green="0.95686274510000002" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4Ed-01-vo5" firstAttribute="trailing" secondItem="NLW-j3-38C" secondAttribute="trailing" constant="10" id="FaE-qs-DWu"/>
+                <constraint firstItem="NLW-j3-38C" firstAttribute="leading" secondItem="4Ed-01-vo5" secondAttribute="leading" constant="10" id="Lv4-e7-WIo"/>
+                <constraint firstItem="4Ed-01-vo5" firstAttribute="trailing" secondItem="Diq-L8-VKj" secondAttribute="trailing" constant="40" id="M46-Ul-dc0"/>
+                <constraint firstItem="NLW-j3-38C" firstAttribute="top" secondItem="4Ed-01-vo5" secondAttribute="top" constant="10" id="UM1-1v-H2y"/>
+                <constraint firstItem="Diq-L8-VKj" firstAttribute="top" secondItem="NLW-j3-38C" secondAttribute="bottom" constant="10" id="Wkd-9A-vvu"/>
+                <constraint firstItem="Diq-L8-VKj" firstAttribute="leading" secondItem="4Ed-01-vo5" secondAttribute="leading" constant="40" id="b7o-gF-zTG"/>
+                <constraint firstItem="4Ed-01-vo5" firstAttribute="bottom" secondItem="Diq-L8-VKj" secondAttribute="bottom" constant="20" id="cvb-s4-cza"/>
+            </constraints>
+            <point key="canvasLocation" x="-11" y="20"/>
+        </view>
+    </objects>
+</document>

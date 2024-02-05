@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RedHatText-Medium.ttf">
+            <string>RedHatText-Medium</string>
+        </array>
+        <array key="RedHatText-Regular.ttf">
+            <string>RedHatText-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MMVerifyMobileVC" customModule="Fintoo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnContinue" destination="xDK-4q-riz" id="2BT-6X-RCj"/>
+                <outlet property="btnResend" destination="kjM-u4-NAY" id="A4Z-QR-SQY"/>
+                <outlet property="imgErrorInfo" destination="xMd-yf-dnt" id="o1c-pb-Aql"/>
+                <outlet property="lblChangeNumber" destination="ABU-HB-0Ve" id="tVZ-Dl-uNY"/>
+                <outlet property="lblErrorPhone" destination="fu4-bt-s30" id="vRL-ep-Vos"/>
+                <outlet property="lblResend" destination="djA-Vc-qbP" id="0l8-mk-6F1"/>
+                <outlet property="lblTitle" destination="JrM-zt-5Cl" id="j9f-4Z-zvN"/>
+                <outlet property="otpView" destination="JQw-ip-gSz" id="9u3-Fs-LkF"/>
+                <outlet property="stackError" destination="H2B-ew-fS6" id="5Hj-2M-ROk"/>
+                <outlet property="stackResend" destination="u1f-wG-QQI" id="Tvm-dQ-MRh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="obS-Be-vgc">
+                    <rect key="frame" x="10" y="10" width="373" height="808"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type your 6 digit security code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrM-zt-5Cl">
+                            <rect key="frame" x="10" y="30" width="230.66666666666666" height="21.333333333333329"/>
+                            <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="16"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="3YV-LE-QLX">
+                            <rect key="frame" x="15" y="71.333333333333343" width="343" height="97.333333333333343"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JQw-ip-gSz" customClass="OTPFieldView" customModule="OTPFieldView">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="60"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="60" id="fTp-Ud-A7u"/>
+                                    </constraints>
+                                </view>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="H2B-ew-fS6">
+                                    <rect key="frame" x="0.0" y="60.000000000000014" width="343" height="37.333333333333329"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We could not find any Account with your mobile number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ptR-gy-me8">
+                                            <rect key="frame" x="0.0" y="0.0" width="320.66666666666669" height="17.333333333333332"/>
+                                            <fontDescription key="fontDescription" name="RedHatText-Regular" family="Red Hat Text" pointSize="13"/>
+                                            <color key="textColor" systemColor="systemRedColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="sif-T6-sgg">
+                                            <rect key="frame" x="0.0" y="25.333333333333314" width="124" height="12"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+91 9876897830" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fu4-bt-s30">
+                                                    <rect key="frame" x="0.0" y="0.0" width="102" height="12"/>
+                                                    <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="13"/>
+                                                    <color key="textColor" systemColor="systemRedColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon-info" translatesAutoresizingMaskIntoConstraints="NO" id="xMd-yf-dnt">
+                                                    <rect key="frame" x="112" y="0.0" width="12" height="12"/>
+                                                    <color key="tintColor" red="0.60392156860000001" green="0.60392156860000001" blue="0.60392156860000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="12" id="0Li-hd-08S"/>
+                                                        <constraint firstAttribute="height" constant="12" id="R7S-5T-mEz"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="-8" translatesAutoresizingMaskIntoConstraints="NO" id="u1f-wG-QQI">
+                            <rect key="frame" x="15" y="183.66666666666666" width="222.66666666666666" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="Didn't receive OTP code?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djA-Vc-qbP">
+                                    <rect key="frame" x="0.0" y="5.6666666666666856" width="158" height="18.666666666666668"/>
+                                    <fontDescription key="fontDescription" name="RedHatText-Regular" family="Red Hat Text" pointSize="14"/>
+                                    <color key="textColor" name="LabelColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjM-u4-NAY">
+                                    <rect key="frame" x="150" y="0.0" width="72.666666666666686" height="30"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="30" id="cE0-Ll-L5M"/>
+                                    </constraints>
+                                    <color key="tintColor" name="FintooTintBlue"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="Resend">
+                                        <fontDescription key="titleFontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="14"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="resendPressed:" destination="-1" eventType="touchUpInside" id="uHD-4W-VV5"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ABU-HB-0Ve">
+                            <rect key="frame" x="14.999999999999993" y="238.66666666666666" width="122.33333333333331" height="21.333333333333343"/>
+                            <fontDescription key="fontDescription" name="RedHatText-Medium" family="Red Hat Text" pointSize="16"/>
+                            <color key="textColor" name="MyTintColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xDK-4q-riz">
+                            <rect key="frame" x="30" y="743" width="313" height="45"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="45" id="Jbv-0r-Cbo"/>
+                            </constraints>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Continue">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="continuePressed:" destination="-1" eventType="touchUpInside" id="KsH-Wt-IjC"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="6bP-cc-0GL"/>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="3YV-LE-QLX" firstAttribute="leading" secondItem="obS-Be-vgc" secondAttribute="leading" constant="15" id="3Vk-dd-0BY"/>
+                        <constraint firstItem="u1f-wG-QQI" firstAttribute="top" secondItem="3YV-LE-QLX" secondAttribute="bottom" constant="15" id="Bb7-e2-vLu"/>
+                        <constraint firstItem="3YV-LE-QLX" firstAttribute="top" secondItem="JrM-zt-5Cl" secondAttribute="bottom" constant="20" id="Dey-4m-Cal"/>
+                        <constraint firstItem="xDK-4q-riz" firstAttribute="leading" secondItem="6bP-cc-0GL" secondAttribute="leading" constant="30" id="DhX-7n-gXM"/>
+                        <constraint firstItem="6bP-cc-0GL" firstAttribute="bottom" secondItem="xDK-4q-riz" secondAttribute="bottom" constant="20" id="Hc8-Lu-3K3"/>
+                        <constraint firstItem="u1f-wG-QQI" firstAttribute="leading" secondItem="3YV-LE-QLX" secondAttribute="leading" id="KuL-4p-gE7"/>
+                        <constraint firstItem="u1f-wG-QQI" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="3YV-LE-QLX" secondAttribute="trailing" id="P1y-F3-rqh"/>
+                        <constraint firstItem="ABU-HB-0Ve" firstAttribute="leading" secondItem="u1f-wG-QQI" secondAttribute="leading" id="Xsk-c2-w0X"/>
+                        <constraint firstItem="JrM-zt-5Cl" firstAttribute="top" secondItem="obS-Be-vgc" secondAttribute="top" constant="30" id="YvH-fP-RnK"/>
+                        <constraint firstItem="JrM-zt-5Cl" firstAttribute="leading" secondItem="obS-Be-vgc" secondAttribute="leading" constant="10" id="eKz-GT-swB"/>
+                        <constraint firstItem="ABU-HB-0Ve" firstAttribute="top" secondItem="u1f-wG-QQI" secondAttribute="bottom" constant="25" id="gEC-QJ-5MY"/>
+                        <constraint firstItem="6bP-cc-0GL" firstAttribute="trailing" secondItem="xDK-4q-riz" secondAttribute="trailing" constant="30" id="quA-aG-XwG"/>
+                        <constraint firstAttribute="trailing" secondItem="3YV-LE-QLX" secondAttribute="trailing" constant="15" id="y3T-6h-j3D"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="obS-Be-vgc" secondAttribute="bottom" id="PCM-cC-nOt"/>
+                <constraint firstItem="obS-Be-vgc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="XIl-xo-e94"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="obS-Be-vgc" secondAttribute="trailing" constant="10" id="Yu0-HY-jwF"/>
+                <constraint firstItem="obS-Be-vgc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="l51-2f-5Ai"/>
+            </constraints>
+            <point key="canvasLocation" x="35.877862595419849" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon-info" width="128" height="128"/>
+        <namedColor name="FintooTintBlue">
+            <color red="0.13333333333333333" green="0.65098039215686276" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="LabelColor">
+            <color red="0.45882352941176469" green="0.45882352941176469" blue="0.45882352941176469" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="MyTintColor">
+            <color red="0.13333333333333333" green="0.65098039215686276" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
