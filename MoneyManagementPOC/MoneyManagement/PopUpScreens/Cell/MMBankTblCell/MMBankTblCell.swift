@@ -1,8 +1,8 @@
 //
 //  MMBankTblCell.swift
-//  Minty
+//  Amey
 //
-//  Created by Ameya on 11/01/24.
+//  Created by Amey on 11/01/24.
 //
 
 import UIKit

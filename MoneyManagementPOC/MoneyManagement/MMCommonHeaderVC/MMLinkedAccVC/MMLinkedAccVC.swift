@@ -1,8 +1,8 @@
 //
 //  MMLinkedAccVC.swift
-//  Minty
+//  Amey
 //
-//  Created by Ameya on 15/01/24.
+//  Created by Amey on 15/01/24.
 //
 
 import UIKit

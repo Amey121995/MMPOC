@@ -1,6 +1,6 @@
 //
 //  MmTxnCell.swift
-//  Minty
+//  Amey
 //
 //  Created by Admin on 16/01/24.
 //

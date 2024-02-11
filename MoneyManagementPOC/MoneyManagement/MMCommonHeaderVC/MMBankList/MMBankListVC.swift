@@ -1,8 +1,8 @@
 //
 //  MMBankListVC.swift
-//  Minty
+//  Amey
 //
-//  Created by Ameya on 10/01/24.
+//  Created by Amey on 10/01/24.
 //
 
 import UIKit
